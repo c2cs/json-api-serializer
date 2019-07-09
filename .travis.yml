@@ -11,3 +11,9 @@ script:
   - npm test
 after_script:
   - npm run coveralls
+deploy:
+  provider: npm
+  email: "luke@c2cschools.com"
+  api_key: "$NPM_API_KEY"
+  on:
+    branch: master

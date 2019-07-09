@@ -1,5 +1,5 @@
 {
-  "name": "json-api-serializer",
+  "name": "@c2cs/json-api-serializer",
   "version": "1.15.1",
   "description": "Framework agnostic JSON API serializer.",
   "main": "index.js",
@@ -17,7 +17,10 @@
     "serializer"
   ],
   "author": "Kévin Danielo",
-  "repository": "danivek/json-api-serializer",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/c2cs/json-api-serializer.git"
+  },
   "license": "MIT",
   "engines": {
     "node": ">= 4.0.0"
